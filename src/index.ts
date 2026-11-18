@@ -8,10 +8,11 @@ export default {
       request.method === "GET"
     ) {
       return Response.json({
-        status: "ok",
-        service: "erp-core-api",
-        version: "0.1.0"
-      });
+  status: "ok",
+  service: "erp-core-api",
+  version: "0.1.0",
+  message: "ERP API is running"
+});
     }
 
     return Response.json(
