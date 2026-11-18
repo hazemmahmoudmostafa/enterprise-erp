@@ -1,5 +1,5 @@
-import { jsonResponse } from "../shared/http";
 
+import { jsonResponse } from "./shared/http";
 /**
  * نقطة استقبال طلبات النظام.
  * تستقبل طلب HTTP وتوجهه للمسار الداخلي المناسب.
