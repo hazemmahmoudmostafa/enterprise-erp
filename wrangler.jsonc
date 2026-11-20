@@ -10,5 +10,13 @@
   "observability": {
     "enabled": true
   },
-  "upload_source_maps": true
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "erp-core-db",
+      "database_id": "111fb13a-27bc-4ab3-9b8d-7ffa76114987",
+      "migrations_dir": "."
+    }
+  ]
 }
